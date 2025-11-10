@@ -3,8 +3,12 @@
 extends: default
 
 ignore: |
-  venv/
-
+  .ansible-lint
+  .cache
+  .github
+  .poetry
+  .tox
+  .travis.yml
 rules:
   braces:
     max-spaces-inside: 1
